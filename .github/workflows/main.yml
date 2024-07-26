@@ -8,3 +8,7 @@ jobs:
         run: echo "hello github action"
       - name: good by
         run: echo "good by github action"
+      - name: mutiple line 
+        run: |
+          echo "one"
+          echo "two"
