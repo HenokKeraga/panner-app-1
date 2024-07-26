@@ -1,10 +1,10 @@
-name: planner-workflow
-on: workflow_dispatch 
+name: First Workflow
+on: workflow_dispatch
 jobs:
-  henok-first-job:
+  first-job:
     runs-on: ubuntu-latest
     steps:
-      - name : print hello
-        run : echo "hello github action "
-      - name: print good by
-        run : echo " good by github action"  
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
