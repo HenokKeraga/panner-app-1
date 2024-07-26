@@ -1,10 +1,10 @@
-name: First Workflow
+name: first-github-action
 on: workflow_dispatch
 jobs:
-  first-job:
+  henok-first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
-        run: echo "Hello World!"
-      - name: Print goodbye
-        run: echo "Done - bye!"
+      - name: print hello
+        run: echo "hello github action"
+      - name: good by
+        run: echo "good by github action"
